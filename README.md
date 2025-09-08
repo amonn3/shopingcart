@@ -6,8 +6,8 @@ Uma API REST completa para gerenciamento de carrinho de compras, desenvolvida em
 
 ### 📋 Endpoints da API
 - **`GET /cart`** - Visualizar carrinho atual
-- **`POST /cart`** - Adicionar produto ao carrinho
-- **`POST /cart/add_item`** - Alterar quantidade de produtos
+- **`POST /cart`** - Adicionar produto ao carrinho (cria carrinho)
+- **`POST /cart/add_item`** - Alterar quantidade de produtos (adiciona produtos a um carrinho existente)
 - **`DELETE /cart/:product_id`** - Remover produto do carrinho
 - **`GET /products`** - Listar produtos disponíveis
 - **`POST /products`** - Criar novo produto
