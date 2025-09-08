@@ -234,4 +234,4 @@ docker-compose run test bundle exec rspec spec/models/cart_spec.rb
 - Logs detalhados de processamento
 - Métricas de performance
 
----
+---# shopingcart
