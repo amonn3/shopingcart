@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
-# If running the rails server then create or migrate existing database
-if [ "${1}" == "./bin/rails" ] && [ "${2}" == "server" ]; then
+# Always ensure database is created and migrations are applied
+if [ -x ./bin/rails ]; then
   ./bin/rails db:prepare
 fi
 
